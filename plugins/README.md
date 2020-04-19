@@ -8,7 +8,8 @@ zstyle ':prezto:load' pmodule-dirs $ZPREZTODIR/plugins
 
 为了避免命名冲突和便于管理，我会在我定制的插件前面添加 `a-` 前缀。
 
-## bindkey 键位
+## bindkey 键位示例
 
 - ALT-C: '\ec'
 - CTRL-T: '^T'
+- CTRL-SPACE-d: '^@d'
