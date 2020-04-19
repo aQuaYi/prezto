@@ -37,3 +37,7 @@
 	path = plugins/a-z.lua/z.lua
 	url = https://github.com/skywind3000/z.lua.git
 	shallow = true
+[submodule "plugins/a-enhancd/enhancd"]
+	path = plugins/a-enhancd/enhancd
+	url = https://github.com/b4b4r07/enhancd.git
+	shallow = true
