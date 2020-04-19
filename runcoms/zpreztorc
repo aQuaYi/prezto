@@ -17,6 +17,9 @@ zstyle ':prezto:*:*' color 'yes'
 
 # Add additional directories to load prezto modules from
 # zstyle ':prezto:load' pmodule-dirs $HOME/.zprezto-contrib
+# 把 plugins 作为 pmodule 目录。
+# 这样的话，其中的插件就可以在下方直接导入了。
+zstyle ':prezto:load' pmodule-dirs $ZPREZTODIR/plugins
 
 # Allow module overrides when pmodule-dirs causes module name collisions
 # zstyle ':prezto:load' pmodule-allow-overrides 'yes'

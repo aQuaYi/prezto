@@ -32,7 +32,7 @@
 
 ```Zsh
 $ zsh
-$ git clone --recursive https://github.com/aQuaYi/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+$ git clone --recursive --shallow-submodules https://github.com/aQuaYi/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 $
 ```
 
