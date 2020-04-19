@@ -89,3 +89,6 @@ alias cuc="conda update conda"
 alias gzl='git log --author="$(git config --get user.name)" --pretty=tformat: --numstat --since=1am | gawk '"'"'{ add += $1 ; subs += $2 ; loc += $1 - $2 } END { printf "add: %s \ndel: %s \ntol: %s\n",add,subs,loc }'"'"''
 # 使用 neovim 替代 vi
 alias vi='nvim'
+
+# 方便查找 alias
+alias alp='alias | grep'
