@@ -27,6 +27,7 @@ alias uzc='echo "====== cd prezto dir ======" && \
   echo "====== push ======" && \
   git push && \
   zsh'
+alias cz='cd $ZPREZTODIR && git submodule update -f --init --recursive'
 # 关闭系统
 alias sshn="sudo shutdown -h now"
 
