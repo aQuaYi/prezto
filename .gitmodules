@@ -41,3 +41,7 @@
 	path = plugins/a-enhancd/enhancd
 	url = https://github.com/b4b4r07/enhancd.git
 	shallow = true
+[submodule "plugins/a-fzy/fzy"]
+	path = plugins/a-fzy/fzy
+	url = https://github.com/aperezdc/zsh-fzy.git
+	shallow = true
