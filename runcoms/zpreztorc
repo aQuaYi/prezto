@@ -46,6 +46,7 @@ zstyle ':prezto:load' pmodule \
   'a-z.lua' \
   'a-fzy' \
   'a-enhancd' \
+  'a-autosuggestions' \
   'prompt'
 
 #

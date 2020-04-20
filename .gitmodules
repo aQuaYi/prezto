@@ -45,3 +45,7 @@
 	path = plugins/a-fzy/fzy
 	url = https://github.com/aperezdc/zsh-fzy.git
 	shallow = true
+[submodule "plugins/a-autosuggestion/zsh-autosuggestions"]
+	path = plugins/a-autosuggestion/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+	shallow = true
