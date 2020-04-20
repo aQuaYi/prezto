@@ -24,14 +24,14 @@ export _ZL_MATCH_MODE=1
 alias j='z'
 
 # 使用 fzf 进行选择
-alias jf='j -I'
+alias jf='z -I'
 
 # 使用 fzf 选择要退回的父目录
-alias jb='j -b -I'
+alias jb='z -b -I'
 
 # 使用 fzf 选择要退回的历史目录
-alias jh='j -t -I'
+alias jh='z -t -I'
 
 # 严格匹配当前路径的子路径
-alias jc='j -c'
+alias jc='z -c'
 
