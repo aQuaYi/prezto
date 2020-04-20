@@ -57,3 +57,6 @@ if [[ -n "$key_info" ]]; then
 
   unset keymap
 fi
+
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down

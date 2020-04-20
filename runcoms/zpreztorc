@@ -41,6 +41,8 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
+  'syntax-highlighting' \
+  'history-substring-search' \
   'git' \
   'a-alias' \
   'a-z.lua' \
