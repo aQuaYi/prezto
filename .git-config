@@ -1,0 +1,62 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/aQuaYi/prezto.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[submodule "modules/autosuggestions/external"]
+	active = true
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "modules/completion/external"]
+	active = true
+	url = https://github.com/zsh-users/zsh-completions.git
+[submodule "modules/fasd/external"]
+	active = true
+	url = https://github.com/clvv/fasd.git
+[submodule "modules/history-substring-search/external"]
+	active = true
+	url = https://github.com/zsh-users/zsh-history-substring-search.git
+[submodule "modules/prompt/external/agnoster"]
+	active = true
+	url = https://github.com/agnoster/agnoster-zsh-theme.git
+[submodule "modules/prompt/external/async"]
+	active = true
+	url = https://github.com/mafredri/zsh-async.git
+[submodule "modules/prompt/external/powerlevel10k"]
+	active = true
+	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "modules/prompt/external/powerlevel9k"]
+	active = true
+	url = https://github.com/bhilburn/powerlevel9k.git
+[submodule "modules/prompt/external/powerline"]
+	active = true
+	url = https://github.com/davidjrice/prezto_powerline.git
+[submodule "modules/prompt/functions/pure"]
+	active = true
+	url = https://github.com/sindresorhus/pure.git
+[submodule "modules/syntax-highlighting/external"]
+	active = true
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+[submodule "plugins/a-z.lua/z.lua"]
+	url = https://github.com/skywind3000/z.lua.git
+	active = true
+[submodule "plugins/a-enhancd/enhancd"]
+	url = https://github.com/b4b4r07/enhancd.git
+	active = true
+[submodule "plugins/a-fzy/fzy"]
+	url = https://github.com/aperezdc/zsh-fzy.git
+	active = true
+[submodule "plugins/a-autosuggestions/zsh-autosuggestions"]
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+	active = true
+[submodule "plugins/a-forgit/forgit"]
+	url = https://github.com/wfxr/forgit.git
+	active = true
+[remote "sorin"]
+	url = https://github.com/sorin-ionescu/prezto.git
+	fetch = +refs/heads/*:refs/remotes/sorin/*

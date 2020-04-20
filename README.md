@@ -222,3 +222,26 @@ $
 还可以参考 [aQuaYi/zsh-alias](https://github.com/aQuaYi/zsh-alias/blob/master/zsh-alias.plugin.zsh) 中的 `uza` 和 `uzc` 命令。
 
 ## Zsh
+
+### .git/config 无法使用 github 同步的问题
+
+由于 .git 文件夹中包含的内容，不用同步到远程，所以 .git/config 关于 submodule 的路径信息也就丢失了。
+需要收到添加在别处添加的 submodule 的路径地址。
+
+我现在想到的解决办法是，
+
+把原版的 config 移动到上级目录的 .git-config，然后生成 .git/config 到 ../.git-config 的符号链接。
+
+```zsh
+~/.zprezto/.git master                                  22:58:26
+❯ mv config ../.git-config
+
+~/.zprezto/.git master ?2                               23:00:22
+❯ ln -s ../.git-config config
+
+~/.zprezto/.git master !1 ?2                                                                                                                           23:08:13
+❯ ll config
+Permissions Size User Date Modified Git Name
+lrwxrwxrwx    14 aqua 04-20 23:00    -N config -> ../.git-config
+```
+
