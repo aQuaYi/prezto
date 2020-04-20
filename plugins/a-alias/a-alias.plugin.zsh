@@ -93,3 +93,11 @@ alias vi='nvim'
 
 # 方便查找 alias
 alias alp='alias | grep'
+# 方便查找 bindkey
+alias bkp='bindkey | grep'
+
+# git
+#
+# sync develop to master branch and remote
+alias gmd="git push && git checkout master && git merge develop && git push && git checkout develop"
+
