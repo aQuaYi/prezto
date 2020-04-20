@@ -220,3 +220,5 @@ $
 ```
 
 还可以参考 [aQuaYi/zsh-alias](https://github.com/aQuaYi/zsh-alias/blob/master/zsh-alias.plugin.zsh) 中的 `uza` 和 `uzc` 命令。
+
+## Zsh
