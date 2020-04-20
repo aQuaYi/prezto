@@ -5,7 +5,7 @@
 export ENHANCD_HOOK_AFTER_CD=''
 NOW_DIR=`pwd`
 cd $ZPREZTODIR/plugins/a-enhancd/enhancd
-git checkout .
+git checkout -q .
 cd $NOW_DIR
 
 # Source module files.
@@ -17,7 +17,7 @@ source "${0:h}/enhancd/init.sh" || return 1
 export ENHANCD_HOOK_AFTER_CD=''
 NOW_DIR=`pwd`
 cd $ZPREZTODIR/plugins/a-enhancd/enhancd
-git checkout .
+git checkout -q .
 cd $NOW_DIR
 
 export ENHANCD_HOOK_AFTER_CD='exa --classify -a'
