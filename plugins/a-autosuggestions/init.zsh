@@ -32,3 +32,8 @@ if [[ -n "$key_info" ]]; then
   bindkey -M viins "$key_info[Control]F" vi-forward-word
   bindkey -M viins "$key_info[Control]E" vi-add-eol
 fi
+
+export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
+bindkey '^j' autosuggest-execute # CTRL-j
+bindkey '^e' autosuggest-accept # CTRL-e
