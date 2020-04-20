@@ -7,7 +7,6 @@ source "${0:h}/z.lua/z.lua.plugin.zsh" || return 1
 # 以下可以修改默认配置。
 
 # 设置 $_ZL_CMD 来改变命令名称 (默认为 z)。
-export _ZL_CMD=j
 # 设置 $_ZL_DATA 来改变数据文件 (default ~/.zlua)。
 # 设置 $_ZL_NO_PROMPT_COMMAND 为 1 来跳过钩子函数初始化（方便自己处理）。
 # 设置 $_ZL_EXCLUDE_DIRS 逗号分隔的路径列表，列表内的路径不会被收集。
@@ -20,6 +19,9 @@ export _ZL_ECHO=1
 # 设置 $_ZL_MATCH_MODE 为 1 可以打开 “增强匹配模式”。
 export _ZL_MATCH_MODE=1
 # 设置 $_ZL_HYPHEN 为 1 可以允许关键字中包含横线 （横线默认是 lua 正则关键字，要转写成 %-）。
+
+# 添加另一个别名 j
+alias j='z'
 
 # 使用 fzf 进行选择
 alias jf='j -I'
