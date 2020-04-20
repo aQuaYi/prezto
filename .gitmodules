@@ -49,3 +49,7 @@
 	path = plugins/a-autosuggestion/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
 	shallow = true
+[submodule "plugins/a-forgit/forgit"]
+	path = plugins/a-forgit/forgit
+	url = https://github.com/wfxr/forgit.git
+	shallow = true
