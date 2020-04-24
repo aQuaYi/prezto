@@ -50,7 +50,7 @@ alias ll='exa -lbhmF --time-style=iso --git --color-scale'
 alias lla='exa -lbhmF --time-style=iso --git --color-scale --all'
 # long list, order by modified time
 alias lm='exa --sort=modified -lbhmF --time-style=iso --git --color-scale'
-# long list all, order by modified time 
+# long list all, order by modified time
 alias lma='exa --sort=modified -lbhmF --time-style=iso --git --color-scale --all'
 #
 # one column, just names
