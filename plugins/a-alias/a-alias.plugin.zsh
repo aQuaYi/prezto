@@ -101,3 +101,7 @@ alias bkp='bindkey | grep'
 # sync develop to master branch and remote
 alias gmd="git push && git checkout master && git merge develop && git push && git checkout develop"
 
+# vscode: Visual Studio Code
+#
+alias ca="code -a" # 利用当前 code 窗口打开
+
