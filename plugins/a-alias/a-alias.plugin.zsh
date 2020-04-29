@@ -1,6 +1,8 @@
 ##系统管理
 # update every thing
 alias ue='yay -Syyu'
+alias supdate="sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade && sudo apt -y autoremove"
+
 # update zsh all
 alias uza='echo "====== cd prezto dir ======" && \
   cd $ZPREZTODIR && \
