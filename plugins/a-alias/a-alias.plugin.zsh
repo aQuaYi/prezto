@@ -74,6 +74,7 @@ alias gt="go test -v -race"
 alias gtc="go test -v -race -cover -coverprofile cover.out && go tool cover -html=cover.out"
 alias gtci="go test -v -race -cover -gcflags=all=-l -coverprofile cover.out && go tool cover -html=cover.out"
 alias gob="go build"
+alias updatego="sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf"
 
 ##conda
 # 罗列全部的虚拟环境
