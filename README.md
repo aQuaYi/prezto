@@ -225,6 +225,10 @@ $
 
 还可以参考 [aQuaYi/zsh-alias](https://github.com/aQuaYi/zsh-alias/blob/master/zsh-alias.plugin.zsh) 中的 `uza` 和 `uzc` 命令。
 
+## 在 `runcoms` 中修改环境变量
+
+Go 和 Rust 的环境变量设置， 均在 `/runcoms/zshenv` 文件中。
+
 ## Zsh
 
 ### .git/config 无法使用 github 同步的问题

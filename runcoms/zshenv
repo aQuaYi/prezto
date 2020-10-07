@@ -12,7 +12,7 @@ fi
 
 # for Golang
 export GOPATH="$HOME/golib"
-export GOROOT="/usr/local/go"
+export GOROOT="/usr/bin/go"
 export PATH="$GOPATH/bin:$GOROOT/bin:$PATH"
 
 # for Rust
