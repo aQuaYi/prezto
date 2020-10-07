@@ -191,6 +191,10 @@ $
 
 >遭遇冲突，可用 `git status` 查看冲突内容
 
+只有 README 的冲突是以本文件为准。其余的冲突一律以 sorin 的为准。
+
+可以在运行了 `git status` 后，使用 `git add <文件名>` 来解决。
+
 ### 推送更新内容到 origin
 
 ```zsh
